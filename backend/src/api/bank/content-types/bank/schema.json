@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banks",
+  "info": {
+    "singularName": "bank",
+    "pluralName": "banks",
+    "displayName": "Bank"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BankName": {
+      "type": "string"
+    },
+    "BankAccount": {
+      "type": "biginteger"
+    },
+    "BeneficiaryName": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

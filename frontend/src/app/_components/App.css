@@ -1,0 +1,47 @@
+.product-detail:hover {
+  transform: scale(1.5);
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+/* Styles for the input field */
+.search-container input[type="text"] {
+  width: 20%; /* take up 70% of the screen width */
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Styles for the search button */
+.search-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: rgb(209, 205, 205);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for the search button */
+.search-container button:hover {
+  background-color: #45a049;
+}
+
+/* Styles for the icon */
+.search-container i {
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .search-container input[type="text"] {
+    width: 60%; /* Adjust width for smaller screens */
+  }
+}
