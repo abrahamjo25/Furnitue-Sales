@@ -83,7 +83,7 @@ const Contact = () => {
                     </div>{" "}
                     {/* /.icon */}
                     <div className="service-contents">
-                      <p>+251 924 7420 33</p>
+                      <p>Call +251 924 7420 33</p>
                     </div>{" "}
                     {/* /.service-contents*/}
                   </div>{" "}
