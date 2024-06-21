@@ -141,16 +141,6 @@ const Cart = () => {
                     </strong>
                   </div>
                 </div>
-                {/* <div className="row mb-5">
-                  <div className="col-md-6">
-                    <span className="text-black">Total</span>
-                  </div>
-                  <div className="col-md-6 text-right">
-                    <strong className="text-black">
-                      ETB {total.toFixed(2)}
-                    </strong>
-                  </div>
-                </div> */}
                 <div className="row">
                   <div className="col-md-12">
                     <Link href="/furniture/checkout">
