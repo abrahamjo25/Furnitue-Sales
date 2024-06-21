@@ -129,7 +129,7 @@ const Contact = () => {
                   />
                 </div>
                 <button type="submit" className="btn btn-primary-hover-outline">
-                  Send Message
+                  Send 
                 </button>
               </form>
             </div>
