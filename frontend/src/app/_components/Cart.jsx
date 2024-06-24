@@ -106,7 +106,7 @@ const Cart = () => {
                 <label className="text-black h4" htmlFor="coupon">
                   Coupon
                 </label>
-                <p>Enter your coupon code if you have one.</p>
+                <p>Enter your coupon code if you have one</p>
               </div>
               <div className="col-md-8 mb-3 mb-md-0">
                 <input
